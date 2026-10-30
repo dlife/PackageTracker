@@ -1,0 +1,9 @@
+{
+  "opmerking": "Verzonnen voorbeelddata, geen echte trackingnummers.",
+  "parcels": [
+    {"carrier": "GLS", "tracking": "00000000001", "description": "Webshop A, filament", "status": "onderweg", "status_text": "Ingecheckt voor levering"},
+    {"carrier": "DPD", "tracking": "00000000000002", "description": "Webshop B, onderdelen", "status": "onderweg", "status_text": "Verzonden"},
+    {"carrier": "DHL", "tracking": "JD0000000003", "description": "Webshop C", "status": "afgeleverd", "status_text": "Afgehaald in bpost-afhaalpunt"},
+    {"carrier": "bpost", "tracking": "", "description": "Pakje voor een familielid", "status": "onbekend", "status_text": "Laatste kans om af te halen"}
+  ]
+}

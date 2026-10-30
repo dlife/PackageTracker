@@ -1,0 +1,31 @@
+{
+  "views": [
+    {
+      "title": "Pakjes",
+      "path": "pakjes",
+      "type": "sections",
+      "icon": "mdi:package-variant-closed",
+      "max_columns": 2,
+      "sections": [
+        {
+          "type": "grid",
+          "cards": [
+            {"type": "heading", "heading": "Pakjes", "icon": "mdi:truck-delivery", "heading_style": "title"},
+            {"type": "todo-list", "entity": "todo.pakjes", "hide_completed": false, "grid_options": {"columns": "full"}}
+          ]
+        },
+        {
+          "type": "grid",
+          "cards": [
+            {"type": "heading", "heading": "Volg bij de vervoerder", "icon": "mdi:map-marker-path", "heading_style": "subtitle"},
+            {"type": "shortcut", "label": "DHL", "icon": "mdi:truck-fast", "tap_action": {"action": "url", "url_path": "https://www.dhl.com/be-nl/home/tracking.html"}, "grid_options": {"columns": 6}},
+            {"type": "shortcut", "label": "GLS", "icon": "mdi:truck-fast", "tap_action": {"action": "url", "url_path": "https://gls-group.com/BE/nl/pakket-volgen/"}, "grid_options": {"columns": 6}},
+            {"type": "shortcut", "label": "DPD", "icon": "mdi:truck-fast", "tap_action": {"action": "url", "url_path": "https://www.dpdgroup.com/be/mydpd/my-parcels/search"}, "grid_options": {"columns": 6}},
+            {"type": "shortcut", "label": "bpost", "icon": "mdi:truck-fast", "tap_action": {"action": "url", "url_path": "https://track.bpost.cloud/btr/web/#/search?lang=nl&postalCode=<POSTCODE>"}, "grid_options": {"columns": 6}},
+            {"type": "shortcut", "label": "Mondial Relay", "icon": "mdi:truck-fast", "tap_action": {"action": "url", "url_path": "https://www.mondialrelay.be/nl-be/"}, "grid_options": {"columns": 6}}
+          ]
+        }
+      ]
+    }
+  ]
+}
